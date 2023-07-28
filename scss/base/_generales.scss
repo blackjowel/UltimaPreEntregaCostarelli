@@ -1,0 +1,38 @@
+@import '../utilidades/variables';
+
+a {
+    text-decoration: none;
+  }
+  
+  *{
+    font-family: 'Geologica', sans-serif;
+  }  
+  
+  .custom-text {
+    color: rgb(4, 4, 4); /* Cambia el color de texto según tus preferencias */
+  }
+  
+  body {
+    background-color: $primary-color;
+    font-family: "Geologica", sans-serif;
+    margin: 0;
+    padding: 0;
+ }
+ main {
+  margin: 20px;
+}
+
+h1 {
+  color: black;
+  font-size: $font-size-h1;
+}
+
+
+video {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  top: 10px;
+  left: 10px;
+  z-index: 9999;
+}

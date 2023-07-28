@@ -1,0 +1,33 @@
+.producto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 100%;
+  
+    .imgProducto {
+
+      display: flex;
+
+
+      img {
+        width: 50%;
+        height: auto;
+        margin-right: 20px;
+      }
+
+    }
+    
+  
+    h3 {
+      color: $secondary-color;
+      font-size: $font-size-h3;
+      margin: 0;
+    }
+  
+    p {
+      color: #666;
+    }
+  }
+  
